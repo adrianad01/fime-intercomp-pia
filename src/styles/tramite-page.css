@@ -1,0 +1,46 @@
+.procedure-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #054F8F;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.step-1 {
+ margin-right: 50px;
+}
+
+.step-title {
+    font-size: 24px;
+    width: 80%;
+}
+
+.payment-amount {
+    margin-top: -5px;
+    font-size: 24px;
+}
+
+.btn-payment {
+    background-color: #054F8F;
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-title {
+    margin-left: 15px;
+}

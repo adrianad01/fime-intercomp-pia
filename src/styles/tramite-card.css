@@ -1,0 +1,32 @@
+
+.tramite-card {
+    width: 200px;
+    height: 200px;
+    background-color: #054F8F;
+    color: white;
+    border-radius: 15px;
+    text-align: end;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.assigned-date {
+    margin-top: -15px;
+}
+
+.view-button {
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    border: none;
+    color: #054F8F;
+    transition: all ease-in 100ms;
+}
+
+.view-button:hover{
+    cursor: pointer;
+    background-color: #FFC600;
+    color: white;
+
+}
