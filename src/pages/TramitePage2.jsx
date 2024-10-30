@@ -26,7 +26,7 @@ export const TramitePage2 = () => {
                         <p className="payment-title">Expedición del Título Nivel Doctorado</p>
                         <p className="payment-amount">Total $1,886</p>
 
-                        <a href="../public/documents/boleta_pago_titulo_universitario.pdf" download="boletaDePagoTitulo.pdf">
+                        <a href="/documents/boleta_pago_titulo_universitario.pdf" download="boletaDePagoTitulo.pdf">
 
                             <button className="btn-payment">
 
@@ -47,7 +47,7 @@ export const TramitePage2 = () => {
                         <p className="payment-title">Fotografías digitales para el Título</p>
                         <p className="payment-amount">Total $250</p>
 
-                        <a href="../public/documents/boleta_pago_fotografias_titulo.pdf" download="boletaDePagoFotos.pdf">
+                        <a href="/documents/boleta_pago_fotografias_titulo.pdf" download="boletaDePagoFotos.pdf">
 
                             <button className="btn-payment">
 
@@ -95,7 +95,7 @@ export const TramitePage2 = () => {
 
                     <div style={{display: 'flex'}}>
 
-                        <a href="../public/documents/carta_de_consentimiento.pdf" download="cartaConsentimiento.pdf">
+                        <a href="/documents/carta_de_consentimiento.pdf" download="cartaConsentimiento.pdf">
                             <button className="btn-payment" style={{ width: '190px', marginRight: '10px' }}>
 
                                 <PrinterLogo />
@@ -107,7 +107,7 @@ export const TramitePage2 = () => {
                             </button>
                         </a>
 
-                        <a href="../public/documents/solicitud_titulo_UANL.pdf" download="hojaSolicitud.pdf">
+                        <a href="/documents/solicitud_titulo_UANL.pdf" download="hojaSolicitud.pdf">
 
                             <button className="btn-payment">
                                     <PrinterLogo />
