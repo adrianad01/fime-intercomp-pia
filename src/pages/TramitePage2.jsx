@@ -15,52 +15,25 @@ export const TramitePage2 = () => {
                 </button>
             </Link>
 
-            <p className="procedure-title">Título Nivel Doctorado</p>
+            <p className="procedure-title">Certificado Nivel Doctorado</p>
 
             <div className="steps">
 
                 <div className="step-1">
                     <p className="step-title">Paso 1 - Realizar los pagos correspondientes</p>
-                    <div className="payment" style={{marginBottom: '30px'}}>
+                    <div className="payment" style={{ marginBottom: '30px' }}>
 
-                        <p className="payment-title">Expedición del Título Nivel Doctorado</p>
+                        <p className="payment-title">Expedición del Título Nivel Licenciatura</p>
                         <p className="payment-amount">Total $1,886</p>
-
-                        <a href="/documents/boleta_pago_titulo_universitario.pdf" download="boletaDePagoTitulo.pdf">
-
-                            <button className="btn-payment">
-
-                                <PrinterLogo />
-                                
-                                <span className="btn-title">
-                                    Boleta de Pago
-                                </span>
-
-                            </button>
-
-                        </a>
-
-                    </div>
-
-                    <div className="payment">
-
                         <p className="payment-title">Fotografías digitales para el Título</p>
                         <p className="payment-amount">Total $250</p>
-
-                        <a href="/documents/boleta_pago_fotografias_titulo.pdf" download="boletaDePagoFotos.pdf">
-
-                            <button className="btn-payment">
-
-                                <PrinterLogo />
-                                
+                        <Link to="/payment">
+                            <button className="btn-payment" style={{ textDecoration: 'none' }}>
                                 <span className="btn-title">
-                                    Boleta de Pago
+                                    Ir a formulario de pago
                                 </span>
-
                             </button>
-
-                        </a>
-
+                        </Link>
                     </div>
                 </div>
 
@@ -80,7 +53,7 @@ export const TramitePage2 = () => {
                         <li>
                             <a href="https://www.gob.mx/curp/">
                                 CURP
-                            </a> 
+                            </a>
                         </li>
                         <li>KARDEX</li>
                         <li>
@@ -93,16 +66,16 @@ export const TramitePage2 = () => {
                         <li>Hoja de Solicitud</li>
                     </ul>
 
-                    <div style={{display: 'flex'}}>
+                    <div style={{ display: 'flex' }}>
 
                         <a href="/documents/carta_de_consentimiento.pdf" download="cartaConsentimiento.pdf">
                             <button className="btn-payment" style={{ width: '190px', marginRight: '10px' }}>
 
                                 <PrinterLogo />
-                                    
-                                    <span className="btn-title">
-                                        Carta Consentimiento
-                                    </span>
+
+                                <span className="btn-title">
+                                    Carta Consentimiento
+                                </span>
 
                             </button>
                         </a>
@@ -110,14 +83,14 @@ export const TramitePage2 = () => {
                         <a href="/documents/solicitud_titulo_UANL.pdf" download="hojaSolicitud.pdf">
 
                             <button className="btn-payment">
-                                    <PrinterLogo />
-                                    
-                                    <span className="btn-title">
-                                        Hoja de Solicitud
-                                    </span>
+                                <PrinterLogo />
+
+                                <span className="btn-title">
+                                    Hoja de Solicitud
+                                </span>
                             </button>
                         </a>
-                        
+
                     </div>
 
                 </div>
