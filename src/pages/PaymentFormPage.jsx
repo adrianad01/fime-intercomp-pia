@@ -93,7 +93,7 @@ const PaymentForm = () => {
             required
           >
             <option value="">Selecciona un concepto</option>
-            <option value="Pago de fotografías">Pago de fotografías</option>
+            <option value="Pago de Fotografías">Pago de fotografías</option>
             <option value="Pago de título nivel licenciatura">Pago de título nivel licenciatura</option>
             <option value="Pago de título nivel doctorado">Pago de título nivel doctorado</option>
             <option value="Pago de título nivel programa técnico">Pago de título nivel programa técnico</option>
