@@ -1,0 +1,114 @@
+/* Estilo general para el formulario */
+.payment-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Estilo para el título */
+.payment-form-container h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #046f8b;
+}
+
+/* Estilo para las etiquetas */
+.payment-form-container label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #054F8F; /* Color de los labels */
+}
+
+/* Estilo para los campos de entrada */
+.payment-form-container input[type="text"],
+.payment-form-container select {
+    width: 93%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #f1f1f1;
+}
+
+/* Estilo cuando el select tiene foco */
+.payment-form-container select:focus,
+.payment-form-container input:focus {
+    border-color: #054F8F; /* Cambiar color al foco */
+    outline: none;
+}
+
+/* Estilo para el botón de Generar Boleta */
+.payment-form-container button {
+    background-color: #054F8F; /* Color azul */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Estilo para el hover y el estado activo del botón */
+.payment-form-container button:hover {
+    background-color: #046f8b; /* Cambia el color cuando el botón está en hover */
+}
+
+.payment-form-container button:active {
+    background-color: #03607d; /* Cambia el color cuando el botón está siendo presionado */
+}
+
+/* Estilo para el botón de salir */
+.payment-form-container .btn-exit {
+    background-color: #054F8F; /* Rojo */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+/* Estilo para el hover del botón de salir */
+.payment-form-container .btn-exit:hover {
+    background-color: #e60000;
+}
+
+/* Estilo para los márgenes entre los campos */
+.payment-form-container div {
+    margin-bottom: 15px;
+}
+
+/* Estilo para los campos obligatorios */
+.payment-form-container input:required,
+.payment-form-container select:required {
+    border-color: #e74c3c; /* Rojo cuando el campo es requerido */
+}
+
+/* Estilo para los placeholders */
+.payment-form-container input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+/* Estilo para los mensajes de error */
+.payment-form-container .error {
+    color: rgb(120, 33, 33);
+    font-size: 12px;
+    margin-top: 5px;
+}
